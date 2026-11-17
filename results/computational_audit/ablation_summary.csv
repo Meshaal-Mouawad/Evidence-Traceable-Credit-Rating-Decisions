@@ -1,0 +1,9 @@
+configuration,detected,structural_faults,detection_rate,control_alerts,control_n,semantic_defect_alerts,semantic_defect_n
+metadata_only,54,324,0.16666666666666666,0,54,0,54
+full,324,324,1.0,0,54,0,54
+without_duplicate_statement_id,270,324,0.8333333333333334,0,54,0,54
+without_dangling_link,270,324,0.8333333333333334,0,54,0,54
+without_dependency_cycle,270,324,0.8333333333333334,0,54,0,54
+without_post_cutoff_evidence,270,324,0.8333333333333334,0,54,0,54
+without_source_digest_mismatch,270,324,0.8333333333333334,0,54,0,54
+without_incomplete_decision_metadata,270,324,0.8333333333333334,0,54,0,54

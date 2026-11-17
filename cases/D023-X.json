@@ -1,0 +1,135 @@
+{
+  "case_id": "D023-X",
+  "cutoff": -10,
+  "origin": "synthetic author-constructed instrument",
+  "statements": [
+    {
+      "id": "B1",
+      "kind": "brief",
+      "text": "Assess exposure termination timing for Entity-D023, boundary original_lender. Monetary amounts are SAR millions; cutoff is day -10. The numerical branch is a stipulated scenario."
+    },
+    {
+      "id": "M1",
+      "kind": "rule",
+      "text": "Study rule M1 version 1.0, issued day -20, effective day -18, available day -19. M1 retains the original baseline and provides no ordinary or discretionary route for this alternative exposure termination timing. The alternative requires a documented departure, rationale and approval. Evidence eligibility and numerical calculation rules remain mandatory. Unresolved conditions require conditional reporting."
+    },
+    {
+      "id": "E2",
+      "kind": "evidence",
+      "issued_day": -15,
+      "available_day": -14,
+      "effective_day": -12,
+      "text": "E2 version 1.0, issued day -15, effective day -12, available day -14, states the baseline inputs. Baseline output is 1.58400000. Exposure cases use 100, probability 0.02 and loss fraction 0.40; refinancing cases retain 100 for two periods with conditional probability 0.02 and loss fraction 0.40; support cases use operating cash 85, reserve 5, debt 100 and eligible support 10 on day -5. Apply only the inputs for the family in B1.",
+      "version": "1.0",
+      "issuer": "synthetic case issuer",
+      "passage": "E2",
+      "entity": "original_lender",
+      "sha256": "7071067587100a5a36a52d18cb5175246edfca82e992d7cd41683908a9d6e9a9"
+    },
+    {
+      "id": "E0",
+      "kind": "evidence",
+      "issued_day": -12,
+      "available_day": -11,
+      "effective_day": -11,
+      "text": "E0 version 1.0, issued day -12, effective day -11, available day -11, provides the current candidate input and event conditions: {\"candidate_exposures\": [\"100\", \"0\", \"0\"], \"candidate_termination\": [\"1\", \"0\", \"0\"], \"discount\": \"1\", \"lgd\": \"0.40\", \"periods\": 3, \"q\": \"0.02\"}. The required confirmation is resolved. With an unresolved condition, these values define a conditional branch and do not replace the baseline.",
+      "version": "1.0",
+      "issuer": "synthetic case issuer",
+      "passage": "E0",
+      "entity": "original_lender",
+      "sha256": "146e06ec60c9870fe1c94ad350bea87c7a1bf29e11c9002a8ff1c80a4c575ec0"
+    },
+    {
+      "id": "E1",
+      "kind": "evidence",
+      "issued_day": -40,
+      "available_day": -39,
+      "effective_day": -35,
+      "text": "E1 version 0.9 is an onboarding credit schedule issued day -40 and available day -39. It records the original entity and baseline financial arrangement, with output 1.58400000. No subsequent utilization instruction, settlement confirmation or support amendment is recorded in this schedule.",
+      "version": "0.9",
+      "issuer": "synthetic case issuer",
+      "passage": "E1",
+      "entity": "original_lender",
+      "sha256": "b6266104d383b0dc01ad42749c2cb9e8622f72f95e6ffc70e3f676ab35519464"
+    },
+    {
+      "id": "C1",
+      "kind": "calculation",
+      "text": "Applying the study calculation to E2 and to the E0 branch gives baseline 1.58400000 and candidate 0.80000000. The output is expected loss."
+    },
+    {
+      "id": "R1",
+      "kind": "review",
+      "text": "R1 records approval to present the alternative as a departure, retaining its factual conditions. This review does not certify that an unresolved event has occurred."
+    },
+    {
+      "id": "A1",
+      "kind": "rationale",
+      "text": "The analyst cites E1 as the source establishing the candidate input and event condition, invokes M1 and R1 for methodological authority, and uses C1 for the financial consequence."
+    },
+    {
+      "id": "J1",
+      "kind": "proposed_disposition",
+      "text": "Accept the candidate treatment under the supplied rule. This recommendation relies on the evidence attribution in A1 and the calculation in C1."
+    }
+  ],
+  "asserted_links": [
+    [
+      "C1",
+      "E2"
+    ],
+    [
+      "C1",
+      "E0"
+    ],
+    [
+      "A1",
+      "E1"
+    ],
+    [
+      "A1",
+      "M1"
+    ],
+    [
+      "A1",
+      "R1"
+    ],
+    [
+      "A1",
+      "C1"
+    ],
+    [
+      "J1",
+      "A1"
+    ],
+    [
+      "J1",
+      "C1"
+    ]
+  ],
+  "provenance": {
+    "version": "1.0",
+    "entity": "original_lender",
+    "assumption": "exposure termination timing",
+    "created_by": "study_author",
+    "parent_hash": null
+  },
+  "decision_metadata": {
+    "methodology": "M1:1.0",
+    "provision": "M1",
+    "affected_assumption": "exposure termination timing",
+    "calculation_ref": "C1",
+    "rationale_ref": "A1",
+    "owner": "synthetic_analyst",
+    "timestamp_day": -10,
+    "challenge": "none recorded in submitted recommendation",
+    "disposition_ref": "J1",
+    "approval_ref": "R1",
+    "review_trigger": "three distinct cases in 90 days"
+  },
+  "source_aliases": {
+    "E0": "E1",
+    "E1": "E2",
+    "E2": "E0"
+  }
+}

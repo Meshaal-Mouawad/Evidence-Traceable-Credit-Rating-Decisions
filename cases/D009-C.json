@@ -1,0 +1,135 @@
+{
+  "case_id": "D009-C",
+  "cutoff": -10,
+  "origin": "synthetic author-constructed instrument",
+  "statements": [
+    {
+      "id": "B1",
+      "kind": "brief",
+      "text": "Assess documented utilization for Entity-D009, boundary original_lender. Monetary amounts are SAR millions; cutoff is day -10. The numerical branch is a stipulated scenario."
+    },
+    {
+      "id": "M1",
+      "kind": "rule",
+      "text": "Study rule M1 version 1.0, issued day -20, effective day -18, available day -19. M1 retains the original baseline and explicitly permits a judgment-based alternative scenario for documented utilization, with stated assumptions. Evidence eligibility and numerical calculation rules remain mandatory. Unresolved conditions require conditional reporting."
+    },
+    {
+      "id": "E1",
+      "kind": "evidence",
+      "issued_day": -15,
+      "available_day": -14,
+      "effective_day": -12,
+      "text": "E1 version 1.0, issued day -15, effective day -12, available day -14, states the baseline inputs. Baseline output is 0.8000. Exposure cases use 100, probability 0.02 and loss fraction 0.40; refinancing cases retain 100 for two periods with conditional probability 0.02 and loss fraction 0.40; support cases use operating cash 85, reserve 5, debt 100 and eligible support 10 on day -5. Apply only the inputs for the family in B1.",
+      "version": "1.0",
+      "issuer": "synthetic case issuer",
+      "passage": "E1",
+      "entity": "original_lender",
+      "sha256": "9bb9da847763dfa506b0aff92654f67ed75494fc45191093b0ff593fddeaf598"
+    },
+    {
+      "id": "E2",
+      "kind": "evidence",
+      "issued_day": -40,
+      "available_day": -39,
+      "effective_day": -35,
+      "text": "E2 version 0.9 is an onboarding credit schedule issued day -40 and available day -39. It records the original entity and baseline financial arrangement, with output 0.8000. No subsequent utilization instruction, settlement confirmation or support amendment is recorded in this schedule.",
+      "version": "0.9",
+      "issuer": "synthetic case issuer",
+      "passage": "E2",
+      "entity": "original_lender",
+      "sha256": "2a6491982c1098dd84095a6a45e248c0109e39019b1e11b27885651f468e3d32"
+    },
+    {
+      "id": "E0",
+      "kind": "evidence",
+      "issued_day": -12,
+      "available_day": -11,
+      "effective_day": -11,
+      "text": "E0 version 1.0, issued day -12, effective day -11, available day -11, provides the current candidate input and event conditions: {\"candidate_exposure\": \"140\", \"discount\": \"1\", \"lgd\": \"0.40\", \"periods\": 1, \"q\": \"0.02\"}. The required confirmation is resolved. With an unresolved condition, these values define a conditional branch and do not replace the baseline.",
+      "version": "1.0",
+      "issuer": "synthetic case issuer",
+      "passage": "E0",
+      "entity": "original_lender",
+      "sha256": "5e537137b3e94370e0ef2fb1040cd0d33190cbcbf0a6975da466165a25a09cb2"
+    },
+    {
+      "id": "C1",
+      "kind": "calculation",
+      "text": "Applying the study calculation to E1 and to the E0 branch gives baseline 0.8000 and candidate 1.1200. The output is expected loss."
+    },
+    {
+      "id": "R1",
+      "kind": "review",
+      "text": "R1 records review of the candidate treatment under M1. This review does not certify that an unresolved event has occurred."
+    },
+    {
+      "id": "A1",
+      "kind": "rationale",
+      "text": "The analyst cites E0 as the source establishing the candidate input and event condition, invokes M1 and R1 for methodological authority, and uses C1 for the financial consequence."
+    },
+    {
+      "id": "J1",
+      "kind": "proposed_disposition",
+      "text": "Accept the candidate treatment under the supplied rule. This recommendation relies on the evidence attribution in A1 and the calculation in C1."
+    }
+  ],
+  "asserted_links": [
+    [
+      "C1",
+      "E1"
+    ],
+    [
+      "C1",
+      "E0"
+    ],
+    [
+      "A1",
+      "E0"
+    ],
+    [
+      "A1",
+      "M1"
+    ],
+    [
+      "A1",
+      "R1"
+    ],
+    [
+      "A1",
+      "C1"
+    ],
+    [
+      "J1",
+      "A1"
+    ],
+    [
+      "J1",
+      "C1"
+    ]
+  ],
+  "provenance": {
+    "version": "1.0",
+    "entity": "original_lender",
+    "assumption": "documented utilization",
+    "created_by": "study_author",
+    "parent_hash": null
+  },
+  "decision_metadata": {
+    "methodology": "M1:1.0",
+    "provision": "M1",
+    "affected_assumption": "documented utilization",
+    "calculation_ref": "C1",
+    "rationale_ref": "A1",
+    "owner": "synthetic_analyst",
+    "timestamp_day": -10,
+    "challenge": "none recorded in submitted recommendation",
+    "disposition_ref": "J1",
+    "approval_ref": "R1",
+    "review_trigger": "three distinct cases in 90 days"
+  },
+  "source_aliases": {
+    "E0": "E2",
+    "E1": "E1",
+    "E2": "E0"
+  }
+}

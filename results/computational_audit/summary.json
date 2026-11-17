@@ -1,0 +1,102 @@
+{
+  "audit_type": "exhaustive deterministic computational audit on fixed synthetic corpus",
+  "design_cells": 54,
+  "canonical_variants": 108,
+  "financial_checks": 216,
+  "max_numerical_abs_error": "0.0000",
+  "structural_faults": 324,
+  "full_validator_alerts": 324,
+  "metadata_only_alerts": 54,
+  "clean_control_alerts": 0,
+  "semantic_defect_structural_alerts": 0,
+  "ablation_alerts_each": 270,
+  "ablation_coverage_each_percent": 83.33333333333333,
+  "configurations": [
+    {
+      "configuration": "metadata_only",
+      "detected": 54,
+      "structural_faults": 324,
+      "detection_rate": 0.16666666666666666,
+      "control_alerts": 0,
+      "control_n": 54,
+      "semantic_defect_alerts": 0,
+      "semantic_defect_n": 54
+    },
+    {
+      "configuration": "full",
+      "detected": 324,
+      "structural_faults": 324,
+      "detection_rate": 1.0,
+      "control_alerts": 0,
+      "control_n": 54,
+      "semantic_defect_alerts": 0,
+      "semantic_defect_n": 54
+    },
+    {
+      "configuration": "without_duplicate_statement_id",
+      "detected": 270,
+      "structural_faults": 324,
+      "detection_rate": 0.8333333333333334,
+      "control_alerts": 0,
+      "control_n": 54,
+      "semantic_defect_alerts": 0,
+      "semantic_defect_n": 54
+    },
+    {
+      "configuration": "without_dangling_link",
+      "detected": 270,
+      "structural_faults": 324,
+      "detection_rate": 0.8333333333333334,
+      "control_alerts": 0,
+      "control_n": 54,
+      "semantic_defect_alerts": 0,
+      "semantic_defect_n": 54
+    },
+    {
+      "configuration": "without_dependency_cycle",
+      "detected": 270,
+      "structural_faults": 324,
+      "detection_rate": 0.8333333333333334,
+      "control_alerts": 0,
+      "control_n": 54,
+      "semantic_defect_alerts": 0,
+      "semantic_defect_n": 54
+    },
+    {
+      "configuration": "without_post_cutoff_evidence",
+      "detected": 270,
+      "structural_faults": 324,
+      "detection_rate": 0.8333333333333334,
+      "control_alerts": 0,
+      "control_n": 54,
+      "semantic_defect_alerts": 0,
+      "semantic_defect_n": 54
+    },
+    {
+      "configuration": "without_source_digest_mismatch",
+      "detected": 270,
+      "structural_faults": 324,
+      "detection_rate": 0.8333333333333334,
+      "control_alerts": 0,
+      "control_n": 54,
+      "semantic_defect_alerts": 0,
+      "semantic_defect_n": 54
+    },
+    {
+      "configuration": "without_incomplete_decision_metadata",
+      "detected": 270,
+      "structural_faults": 324,
+      "detection_rate": 0.8333333333333334,
+      "control_alerts": 0,
+      "control_n": 54,
+      "semantic_defect_alerts": 0,
+      "semantic_defect_n": 54
+    }
+  ],
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "input_files": 110
+}
