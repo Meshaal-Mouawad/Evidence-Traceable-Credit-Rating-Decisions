@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175mm" height="137.0833mm" viewBox="0 0 1200 940" role="img" aria-labelledby="title desc">
+<title id="title">Supported and unsupported source attribution in D037</title><desc id="desc">Two panels retain the same candidate calculation source E0. The rationale cites E0 in D037-C and the older E2 in D037-X. Both records pass structural validation; the cited passages differ in support for the candidate assumption.</desc>
+<defs>
+<marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#1E293B"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#0284C7"/></marker>
+<marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#F43F5E"/></marker>
+</defs>
+<rect width="1200" height="940" fill="white"/>
+<text x="40" y="31" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1E293B" text-anchor="start">COMMON CANDIDATE TREATMENT</text>
+<text x="40" y="70" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#1E293B" text-anchor="start">Support 20  ·  arrival day −5  ·  payment day 0  ·  information cutoff day −10</text>
+<text x="40" y="108" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#0284C7" text-anchor="start">Headroom: 85 + 5 + 20 − 100 = +10 SAR million</text>
+<line x1="40" y1="134" x2="1160" y2="134" stroke="#E2E8F0" stroke-width="1.6"/>
+<line x1="605" y1="162" x2="605" y2="698" stroke="#E2E8F0" stroke-width="1.6"/>
+<rect x="40" y="160" width="30" height="30" rx="3" fill="#1E293B" stroke="#1E293B" stroke-width="1.6"/>
+<text x="55" y="182" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="83" y="185" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="start">D037-C</text>
+<text x="40" y="220" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="start">Supported attribution</text>
+<rect x="40" y="253" width="250" height="137" rx="5" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.8"/>
+<text x="57" y="283" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="start">E0 · version 1.0</text>
+<text x="57" y="314" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Available day −11</text>
+<text x="57" y="345" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#1E293B" text-anchor="start">Support 20; arrival −5</text>
+<text x="57" y="375" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Confirmation resolved</text>
+<rect x="40" y="429" width="250" height="137" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.8"/>
+<text x="57" y="459" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="start">E2 · version 0.9</text>
+<text x="57" y="490" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Available day −39</text>
+<text x="57" y="521" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Older onboarding record</text>
+<text x="57" y="551" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">No support amendment</text>
+<rect x="390" y="269" width="170" height="95" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.6"/>
+<text x="475" y="303" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#1E293B" text-anchor="middle">Calculation C1</text>
+<text x="475" y="340" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="middle">Headroom +10</text>
+<path d="M 390,317 L 292,317" fill="none" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<text x="340" y="298" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="middle">cites</text>
+<rect x="390" y="451" width="170" height="95" rx="5" fill="#FFFFFF" stroke="#0284C7" stroke-width="2.1"/>
+<text x="475" y="485" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Rationale A1</text>
+<text x="475" y="522" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0284C7" text-anchor="middle">Cites E0</text>
+<path d="M 390,500 L 340,500 L 340,365 L 292,365" fill="none" stroke="#0284C7" stroke-width="3.0" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<rect x="40" y="604" width="520" height="45" rx="4" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.6"/>
+<text x="300" y="634" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#0284C7" text-anchor="middle">Structural checks: PASS</text>
+<text x="300" y="688" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Cited passage supports the assumption</text>
+<rect x="650" y="160" width="30" height="30" rx="3" fill="#1E293B" stroke="#1E293B" stroke-width="1.6"/>
+<text x="665" y="182" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="693" y="185" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="start">D037-X</text>
+<text x="650" y="220" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="start">Unsupported attribution</text>
+<rect x="650" y="253" width="250" height="137" rx="5" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.8"/>
+<text x="667" y="283" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="start">E0 · version 1.0</text>
+<text x="667" y="314" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Available day −11</text>
+<text x="667" y="345" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#1E293B" text-anchor="start">Support 20; arrival −5</text>
+<text x="667" y="375" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Confirmation resolved</text>
+<rect x="650" y="429" width="250" height="137" rx="5" fill="#FFFFFF" stroke="#F43F5E" stroke-width="1.8"/>
+<text x="667" y="459" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="start">E2 · version 0.9</text>
+<text x="667" y="490" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Available day −39</text>
+<text x="667" y="521" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Older onboarding record</text>
+<text x="667" y="551" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1E293B" text-anchor="start">No support amendment</text>
+<rect x="1000" y="269" width="170" height="95" rx="5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.6"/>
+<text x="1085" y="303" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#1E293B" text-anchor="middle">Calculation C1</text>
+<text x="1085" y="340" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="middle">Headroom +10</text>
+<path d="M 1000,317 L 902,317" fill="none" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<text x="950" y="298" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="middle">cites</text>
+<rect x="1000" y="451" width="170" height="95" rx="5" fill="#FFFFFF" stroke="#F43F5E" stroke-width="2.1"/>
+<text x="1085" y="485" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Rationale A1</text>
+<text x="1085" y="522" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#F43F5E" text-anchor="middle">Cites E2</text>
+<path d="M 1000,500 L 902,500" fill="none" stroke="#F43F5E" stroke-width="3.0" stroke-linejoin="round" marker-end="url(#arrow-coral)"/>
+<rect x="650" y="604" width="520" height="45" rx="4" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.6"/>
+<text x="910" y="634" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#0284C7" text-anchor="middle">Structural checks: PASS</text>
+<text x="910" y="688" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Cited passage lacks the amendment</text>
+<rect x="40" y="738" width="1130" height="130" rx="5" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.6"/>
+<text x="60" y="770" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1E293B" text-anchor="start">SHARED RECORD</text>
+<text x="60" y="807" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#1E293B" text-anchor="start">Supplied study rule M1:1.0  ·  review R1  ·  proposed disposition J1</text>
+<text x="60" y="844" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="start">Baseline source E1 retained  ·  same source passages  ·  same calculation</text>
+<text x="40" y="911" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Selected citation links shown; arrows point from the citing statement to its source.</text>
+</svg>

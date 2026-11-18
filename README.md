@@ -1,6 +1,15 @@
-# Evidence-Traceable Credit Rating Decisions — Reproducibility
+# Evidence-Traceable Credit Rating Decisions
 
-This repository contains the **synthetic computational evidence** for *Evidence-Traceable Credit Rating Decisions: A Reproducible Framework for Methodology Review*.
+This repository contains the **LaTeX manuscript, approved vector illustrations and synthetic computational evidence** for *Evidence-Traceable Credit Rating Decisions: A Reproducible Framework for Methodology Review*.
+
+## Manuscript
+
+- [Complete manuscript with tables and figures](manuscript/JFRC_Complete_Reading_Copy.pdf) — 19 pages.
+- [Anonymous journal-layout manuscript](manuscript/JFRC_Anonymous_Manuscript.pdf) — 18 pages, with separate-table callouts.
+- [LaTeX entry point](manuscript/main.tex), [complete reading source](manuscript/reading_copy.tex), and [build instructions](manuscript/README.txt).
+- [Four approved MSVS V3 — Nordic Slate vector figures](manuscript/figures/), integrated on 18 November 2026.
+
+Build the manuscripts with `bash manuscript/build.sh`. The exact approved bibliography is included.
 
 ## What is included
 
@@ -30,10 +39,11 @@ The supplied archived evaluation reports 216/216 financial outputs reproduced, 3
 
 ## Provenance and scope
 
-The source code, 108 cases and archived results are copied **without modifications** from the finalized computational supplement dated 17 November 2026. No new experiments were executed to assemble this repository. The archive `Supplementary_1_Computational_Reproducibility.zip` submitted to the journal remains the frozen reference version.
+The source code, 108 cases and archived results are copied **without modifications** from the finalized computational supplement dated 17 November 2026. No new experiments were executed to assemble this repository. The computational supplement retained for journal submission remains the frozen reference version. The manuscript update on 18 November 2026 integrates four approved illustrations and their captions and references; the research calculations, case records and numerical outputs are unchanged.
 
 No person-level reviewer records, editorial correspondence, author title page, or internal audit reports are present here.
 
 ## Licensing
 
 No license is specified for this research release. An explicit license may be added by the research owner in a separate decision.
+

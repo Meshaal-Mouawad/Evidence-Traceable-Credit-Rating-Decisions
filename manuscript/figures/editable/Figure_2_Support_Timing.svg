@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175mm" height="102.0833mm" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Sponsor-support timing and payment-date headroom</title><desc id="desc">Paired timelines use the same 20 million support amount. Arrival on day minus five gives plus ten million headroom; arrival on day plus five gives minus ten million headroom at day zero.</desc>
+<defs>
+<marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#1E293B"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#0284C7"/></marker>
+<marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#F43F5E"/></marker>
+</defs>
+<rect width="1200" height="700" fill="white"/>
+<text x="40" y="32" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1E293B" text-anchor="start">COMMON INPUTS  ·  SAR MILLION</text>
+<text x="40" y="76" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="start">Operating cash</text>
+<text x="278" y="76" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#0284C7" text-anchor="end">85</text>
+<text x="330" y="76" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="start">Eligible reserve</text>
+<text x="568" y="76" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#0284C7" text-anchor="end">5</text>
+<text x="620" y="76" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="start">Debt service</text>
+<text x="858" y="76" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#0284C7" text-anchor="end">100</text>
+<text x="910" y="76" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="start">Support</text>
+<text x="1148" y="76" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#0284C7" text-anchor="end">20</text>
+<line x1="40" y1="98" x2="1160" y2="98" stroke="#E2E8F0" stroke-width="1.6"/>
+<line x1="580" y1="198" x2="580" y2="255" stroke="#1E293B" stroke-width="1.8" stroke-dasharray="7 7"/>
+<line x1="580" y1="290" x2="580" y2="411" stroke="#1E293B" stroke-width="1.8" stroke-dasharray="7 7"/>
+<line x1="580" y1="443" x2="580" y2="500" stroke="#1E293B" stroke-width="1.8" stroke-dasharray="7 7"/>
+<line x1="580" y1="535" x2="580" y2="560" stroke="#1E293B" stroke-width="1.8" stroke-dasharray="7 7"/>
+<line x1="900" y1="164" x2="900" y2="562" stroke="#E2E8F0" stroke-width="1.6"/>
+<rect x="40" y="116" width="30" height="30" rx="3" fill="#1E293B" stroke="#1E293B" stroke-width="1.6"/>
+<text x="55" y="138" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="83" y="141" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="start">Support before payment</text>
+<path d="M 75,240 L 870,240" fill="none" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<line x1="90" y1="232" x2="90" y2="248" stroke="#1E293B" stroke-width="1.8"/>
+<text x="90" y="277" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="middle">day −10</text>
+<line x1="335" y1="232" x2="335" y2="248" stroke="#1E293B" stroke-width="1.8"/>
+<text x="335" y="277" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="middle">day −5</text>
+<line x1="580" y1="232" x2="580" y2="248" stroke="#1E293B" stroke-width="1.8"/>
+<text x="580" y="277" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="middle">day 0</text>
+<line x1="825" y1="232" x2="825" y2="248" stroke="#1E293B" stroke-width="1.8"/>
+<text x="825" y="277" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="middle">day +5</text>
+<path d="M 335,190 L 335,228" fill="none" stroke="#0284C7" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="335" y="175" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#0284C7" text-anchor="middle">20 arrives</text>
+<line x1="580" y1="205" x2="580" y2="240" stroke="#1E293B" stroke-width="2.4"/>
+<text x="580" y="190" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">100 due</text>
+<text x="90" y="306" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="middle">Information</text>
+<text x="90" y="330" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="middle">cutoff</text>
+<text x="930" y="208" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Resources at day 0</text>
+<text x="930" y="241" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="start">85 + 5 + 20 = 110</text>
+<text x="930" y="286" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="start">Headroom</text>
+<text x="1160" y="288" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#0284C7" text-anchor="end">+10</text>
+<rect x="40" y="361" width="30" height="30" rx="3" fill="#1E293B" stroke="#1E293B" stroke-width="1.6"/>
+<text x="55" y="383" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="83" y="386" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="start">Support after payment</text>
+<path d="M 75,485 L 870,485" fill="none" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<line x1="90" y1="477" x2="90" y2="493" stroke="#1E293B" stroke-width="1.8"/>
+<text x="90" y="522" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="middle">day −10</text>
+<line x1="335" y1="477" x2="335" y2="493" stroke="#1E293B" stroke-width="1.8"/>
+<text x="335" y="522" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="middle">day −5</text>
+<line x1="580" y1="477" x2="580" y2="493" stroke="#1E293B" stroke-width="1.8"/>
+<text x="580" y="522" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="middle">day 0</text>
+<line x1="825" y1="477" x2="825" y2="493" stroke="#1E293B" stroke-width="1.8"/>
+<text x="825" y="522" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="middle">day +5</text>
+<path d="M 825,435 L 825,473" fill="none" stroke="#F43F5E" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#arrow-coral)"/>
+<text x="825" y="420" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#F43F5E" text-anchor="middle">20 arrives</text>
+<line x1="580" y1="450" x2="580" y2="485" stroke="#1E293B" stroke-width="2.4"/>
+<text x="580" y="435" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">100 due</text>
+<text x="90" y="551" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="middle">Information</text>
+<text x="90" y="575" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="middle">cutoff</text>
+<text x="930" y="453" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Resources at day 0</text>
+<text x="930" y="486" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="start">85 + 5 + 0 = 90</text>
+<text x="930" y="531" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="start">Headroom</text>
+<text x="1160" y="533" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#F43F5E" text-anchor="end">−10</text>
+<text x="580" y="603" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="middle">Payment boundary  <tspan font-style="italic">t</tspan><tspan baseline-shift="sub" font-size="15.4">d</tspan> = 0</text>
+<line x1="40" y1="630" x2="1160" y2="630" stroke="#E2E8F0" stroke-width="1.6"/>
+<text x="40" y="668" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#1E293B" text-anchor="start">Both cases use the same day −10 information cutoff and a support amount of 20.</text>
+</svg>

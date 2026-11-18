@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175mm" height="113.7500mm" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+<title id="title">Versioned decision record and review controls</title><desc id="desc">Six linked record components, with numerical replay, structural diagnostics and evidential review shown as separate activities examining the record.</desc>
+<defs>
+<marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#1E293B"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#0284C7"/></marker>
+<marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#F43F5E"/></marker>
+</defs>
+<rect width="1200" height="780" fill="white"/>
+<rect x="40" y="17" width="30" height="30" rx="3" fill="#1E293B" stroke="#1E293B" stroke-width="1.6"/>
+<text x="55" y="39" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="83" y="42" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="start">Linked decision record</text>
+<text x="1160" y="40" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#1E293B" text-anchor="end"><tspan font-style="italic">D</tspan><tspan baseline-shift="sub" font-size="18.2">j</tspan></text>
+<rect x="20" y="88" width="1160" height="436" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+<rect x="40" y="125" width="300" height="95" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.8"/>
+<text x="190.0" y="164" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">Versioned evidence</text>
+<text x="190.0" y="197" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#1E293B" text-anchor="middle"><tspan font-style="italic">E</tspan><tspan baseline-shift="sub" font-size="16.099999999999998">j</tspan></text>
+<rect x="450" y="125" width="300" height="95" rx="6" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.8"/>
+<text x="600.0" y="164" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">Assumption</text>
+<text x="600.0" y="197" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#0284C7" text-anchor="middle"><tspan font-style="italic">A</tspan><tspan baseline-shift="sub" font-size="16.099999999999998">j</tspan></text>
+<rect x="860" y="125" width="300" height="95" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.8"/>
+<text x="1010.0" y="164" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">Calculation</text>
+<text x="1010.0" y="197" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#1E293B" text-anchor="middle"><tspan font-style="italic">C</tspan><tspan baseline-shift="sub" font-size="16.099999999999998">j</tspan></text>
+<rect x="40" y="310" width="300" height="95" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.8"/>
+<text x="190.0" y="349" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">Methodology provision</text>
+<text x="190.0" y="382" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#1E293B" text-anchor="middle"><tspan font-style="italic">M</tspan><tspan baseline-shift="sub" font-size="16.099999999999998">j</tspan></text>
+<rect x="450" y="310" width="710" height="95" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.8"/>
+<text x="805.0" y="349" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">Rationale and disposition</text>
+<text x="805.0" y="382" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#1E293B" text-anchor="middle"><tspan font-style="italic">R</tspan><tspan baseline-shift="sub" font-size="16.099999999999998">j</tspan></text>
+<path d="M 340,173 L 448,173" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="395" y="154" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#0284C7" text-anchor="middle">cited for</text>
+<path d="M 750,173 L 858,173" fill="none" stroke="#0284C7" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="805" y="154" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#0284C7" text-anchor="middle">input to</text>
+<path d="M 340,358 L 448,358" fill="none" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<text x="395" y="339" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="middle">governs</text>
+<path d="M 600,220 L 600,308" fill="none" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<text x="615" y="270" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">explained in</text>
+<path d="M 1010,220 L 1010,308" fill="none" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<text x="1025" y="270" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">recorded in</text>
+<rect x="40" y="440" width="1120" height="60" rx="4" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.6"/>
+<text x="70" y="477" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="start"><tspan font-style="italic">V</tspan><tspan baseline-shift="sub" font-size="16.799999999999997">j</tspan></text>
+<text x="120" y="477" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="start">Shared version and timing metadata</text>
+<text x="1135" y="477" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#1E293B" text-anchor="end">Versions  ·  timestamps  ·  cutoff</text>
+<rect x="40" y="528" width="30" height="30" rx="3" fill="#1E293B" stroke="#1E293B" stroke-width="1.6"/>
+<text x="55" y="550" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="83" y="553" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="start">Examination of the linked record</text>
+<path d="M 600,524 L 600,578" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 212,578 L 988,578" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 212,578 L 212,604" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<path d="M 600,578 L 600,604" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<path d="M 988,578 L 988,604" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow-navy)"/>
+<rect x="40" y="606" width="344" height="130" rx="5" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.6"/>
+<text x="60" y="637" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0284C7" text-anchor="start">IMPLEMENTED CHECK</text>
+<text x="60" y="674" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="start">Numerical replay</text>
+<text x="60" y="710" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Recompute financial outputs</text>
+<rect x="428" y="606" width="344" height="130" rx="5" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.6"/>
+<text x="448" y="637" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0284C7" text-anchor="start">IMPLEMENTED CHECK</text>
+<text x="448" y="674" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="start">Structural diagnostics</text>
+<text x="448" y="710" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Six tested diagnostic families</text>
+<rect x="816" y="606" width="344" height="130" rx="5" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="836" y="637" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1E293B" text-anchor="start">REVIEW TASK</text>
+<text x="836" y="674" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="start">Evidential review</text>
+<text x="836" y="710" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Assess source and rule support</text>
+</svg>

@@ -9,3 +9,7 @@ __pycache__/
 *.aux
 *.out
 *.synctex.gz
+
+# Local journal submission materials and update backups
+/submission/
+/.jfrc-local-backups/

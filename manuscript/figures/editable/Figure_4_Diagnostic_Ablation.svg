@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175mm" height="94.7917mm" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Diagnostic-family suppression and structural alert coverage</title><desc id="desc">Six by seven annotated matrix. All fault families are detected by the full validator. Suppressing each diagnostic output leaves the corresponding 54 perturbations undetected.</desc>
+<defs>
+<marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#1E293B"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#0284C7"/></marker>
+<marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#F43F5E"/></marker>
+</defs>
+<rect width="1200" height="650" fill="white"/>
+<text x="40" y="38" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="start">Injected fault</text>
+<text x="755" y="38" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#1E293B" text-anchor="middle">Suppressed diagnostic family</text>
+<text x="370.5" y="96" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">None</text>
+<text x="370.5" y="124" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#0284C7" text-anchor="middle">full validator</text>
+<text x="491.5" y="96" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Identifier</text>
+<text x="612.5" y="96" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Reference</text>
+<text x="733.5" y="96" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Cycle</text>
+<text x="854.5" y="96" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Cutoff</text>
+<text x="975.5" y="96" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Digest</text>
+<text x="1096.5" y="96" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="middle">Metadata</text>
+<text x="289" y="184" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#1E293B" text-anchor="end">Duplicate identifier</text>
+<rect x="310" y="149" width="121" height="55" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="370.5" y="185" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="431" y="149" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<rect x="433" y="151" width="117" height="51" rx="0" fill="#F43F5E" stroke="#F43F5E" stroke-width="1.7" fill-opacity="0.1"/>
+<text x="491.5" y="185" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">0/54</text>
+<rect x="552" y="149" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="612.5" y="185" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="673" y="149" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="733.5" y="185" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="794" y="149" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="854.5" y="185" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="915" y="149" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="975.5" y="185" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="1036" y="149" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="1096.5" y="185" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<text x="289" y="239" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#1E293B" text-anchor="end">Dangling reference</text>
+<rect x="310" y="204" width="121" height="55" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="370.5" y="240" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="431" y="204" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="491.5" y="240" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="552" y="204" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<rect x="554" y="206" width="117" height="51" rx="0" fill="#F43F5E" stroke="#F43F5E" stroke-width="1.7" fill-opacity="0.1"/>
+<text x="612.5" y="240" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">0/54</text>
+<rect x="673" y="204" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="733.5" y="240" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="794" y="204" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="854.5" y="240" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="915" y="204" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="975.5" y="240" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="1036" y="204" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="1096.5" y="240" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<text x="289" y="294" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#1E293B" text-anchor="end">Dependency cycle</text>
+<rect x="310" y="259" width="121" height="55" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="370.5" y="295" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="431" y="259" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="491.5" y="295" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="552" y="259" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="612.5" y="295" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="673" y="259" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<rect x="675" y="261" width="117" height="51" rx="0" fill="#F43F5E" stroke="#F43F5E" stroke-width="1.7" fill-opacity="0.1"/>
+<text x="733.5" y="295" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">0/54</text>
+<rect x="794" y="259" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="854.5" y="295" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="915" y="259" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="975.5" y="295" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="1036" y="259" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="1096.5" y="295" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<text x="289" y="349" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#1E293B" text-anchor="end">Post-cutoff evidence</text>
+<rect x="310" y="314" width="121" height="55" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="370.5" y="350" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="431" y="314" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="491.5" y="350" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="552" y="314" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="612.5" y="350" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="673" y="314" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="733.5" y="350" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="794" y="314" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<rect x="796" y="316" width="117" height="51" rx="0" fill="#F43F5E" stroke="#F43F5E" stroke-width="1.7" fill-opacity="0.1"/>
+<text x="854.5" y="350" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">0/54</text>
+<rect x="915" y="314" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="975.5" y="350" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="1036" y="314" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="1096.5" y="350" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<text x="289" y="404" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#1E293B" text-anchor="end">Source text changed</text>
+<rect x="310" y="369" width="121" height="55" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="370.5" y="405" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="431" y="369" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="491.5" y="405" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="552" y="369" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="612.5" y="405" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="673" y="369" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="733.5" y="405" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="794" y="369" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="854.5" y="405" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="915" y="369" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<rect x="917" y="371" width="117" height="51" rx="0" fill="#F43F5E" stroke="#F43F5E" stroke-width="1.7" fill-opacity="0.1"/>
+<text x="975.5" y="405" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">0/54</text>
+<rect x="1036" y="369" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="1096.5" y="405" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<text x="289" y="459" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#1E293B" text-anchor="end">Decision field missing</text>
+<rect x="310" y="424" width="121" height="55" rx="0" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="370.5" y="460" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="431" y="424" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="491.5" y="460" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="552" y="424" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="612.5" y="460" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="673" y="424" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="733.5" y="460" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="794" y="424" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="854.5" y="460" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="915" y="424" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<text x="975.5" y="460" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#1E293B" text-anchor="middle">54/54</text>
+<rect x="1036" y="424" width="121" height="55" rx="0" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4"/>
+<rect x="1038" y="426" width="117" height="51" rx="0" fill="#F43F5E" stroke="#F43F5E" stroke-width="1.7" fill-opacity="0.1"/>
+<text x="1096.5" y="460" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1E293B" text-anchor="middle">0/54</text>
+<line x1="40" y1="505" x2="1157" y2="505" stroke="#1E293B" stroke-width="1.7"/>
+<text x="289" y="544" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="end">Total alerts</text>
+<text x="289" y="581" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1E293B" text-anchor="end">Coverage</text>
+<text x="370.5" y="544" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">324/324</text>
+<text x="370.5" y="581" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#0284C7" text-anchor="middle">100%</text>
+<text x="491.5" y="544" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">270/324</text>
+<text x="491.5" y="581" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">83.33%</text>
+<text x="612.5" y="544" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">270/324</text>
+<text x="612.5" y="581" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">83.33%</text>
+<text x="733.5" y="544" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">270/324</text>
+<text x="733.5" y="581" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">83.33%</text>
+<text x="854.5" y="544" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">270/324</text>
+<text x="854.5" y="581" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">83.33%</text>
+<text x="975.5" y="544" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">270/324</text>
+<text x="975.5" y="581" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">83.33%</text>
+<text x="1096.5" y="544" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">270/324</text>
+<text x="1096.5" y="581" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1E293B" text-anchor="middle">83.33%</text>
+<text x="40" y="631" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#1E293B" text-anchor="start">Cell values: alerts / 54 controlled perturbations. Highlighted cells identify the missed fault family.</text>
+</svg>

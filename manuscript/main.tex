@@ -18,6 +18,7 @@
 \setstretch{1.25}
 \usepackage{lineno}
 \usepackage{placeins}
+\usepackage{float}
 \usepackage{needspace}
 \providecommand{\harvardurl}[1]{\url{#1}}
 \linenumbers
@@ -109,7 +110,13 @@ For each material analytical judgment $j$, define a decision record
 
 Here, $E_j$ contains versioned evidence, $A_j$ the affected assumption, $C_j$ its calculation, $M_j$ the governing provision, $R_j$ the rationale and disposition, and $V_j$ version and timing metadata. Figure~\ref{fig:architecture} shows how these objects connect numerical and structural checks to evidential review. The methodology layer distinguishes ordinary application, permitted judgment and a departure requiring explicit review. Section~\ref{sec:worked-record} instantiates the complete chain using an archived sponsor-support case.
 
-\begin{figure}[htbp]\centering\resizebox{\linewidth}{!}{\input{figures/figure1.tikz}}\caption{Evidence-traceable credit decision architecture. Structural validation checks the specified record constraints; evidential and methodological review determines whether the linked material justifies the analytical treatment. Source: author-created diagram.}\label{fig:architecture}\end{figure}
+\begin{figure}[H]
+  \centering
+  \makebox[\linewidth][c]{\includegraphics[width=175mm]{figures/Figure_1_Record_and_Review.pdf}}
+  \caption{Decision record and review controls. Evidence, assumptions, calculations, methodology provisions, rationale and disposition, and version/timing metadata form a linked decision record. Numerical replay and structural diagnostics are implemented checks. Evidential review examines source support and governing treatment. Arrows in panel A label conceptual relationships. Source: author's own work.}
+  \label{fig:architecture}
+\end{figure}
+\FloatBarrier
 
 \subsection{Information timing and admissibility}
 
@@ -131,6 +138,14 @@ With $\mathrm{EAD}=100$, $\mathrm{LGD}=0.40$ and $p=0.02$, baseline and unchange
 
 Sponsor-support calculations use operating cash 85, eligible reserve 5 and debt service 100 on day~0. The baseline and unchanged branch admit eligible support of 10 arriving on day~$-5$, giving resources of 100 and headroom of 0. The favorable branch admits 20 on day~$-5$, giving resources of 110 and headroom of 10. The adverse branch schedules 20 on day~$+5$, leaving resources of 90 and headroom of $-10$ at payment. Figure~\ref{fig:support} isolates the fixed-20 timing comparison; the unchanged branch uses 10.
 
+\begin{figure}[H]
+  \centering
+  \makebox[\linewidth][c]{\includegraphics[width=175mm]{figures/Figure_2_Support_Timing.pdf}}
+  \caption{Sponsor-support timing. The same support amount of 20 arrives on day~$-5$ or day~$+5$ relative to payment on day~0. Resources at payment are 110 or 90, giving headroom of $+10$ or $-10$. Operating cash is 85, eligible reserves are 5 and debt service is 100. All amounts are SAR million; both cases use the day~$-10$ information cutoff. Source: author's own work.}
+  \label{fig:support}
+\end{figure}
+\FloatBarrier
+
 \Needspace{10\baselineskip}
 \subsection{Case bank and fault classes}
 
@@ -144,10 +159,14 @@ The archived D037-C/D037-X pair concerns the favorable sponsor-support branch wi
 
 The constructed provision M1:1.0 states: ``M1 authorizes an ordinary documentary update of support availability at the debt-payment cutoff when its conditions are established.'' Calculation C1 applies the baseline E1 and candidate E0 inputs: $85+5+10-100=0$ baseline headroom and $85+5+20-100=10$ candidate headroom. Review record R1 records review under M1. In D037-C, rationale A1 cites E0 for the inputs and condition, M1 and R1 for authority, and C1 for the financial consequence. Disposition J1 states: ``Accept the candidate treatment under the supplied rule.''
 
-D037-X redirects A1 and its evidence link to E2 version~0.9, the older onboarding schedule. E2 states: ``No subsequent utilization instruction, settlement confirmation or support amendment is recorded in this schedule.'' The pair retains identical source passages, rule, calculation and disposition; both linked sources exist and precede the cutoff. The changed attribution is unsupported because E2 lacks the candidate support amendment. These aliases are specific to D037; source labels are shuffled across design cells.
+D037-X redirects A1 and its evidence link to E2 version~0.9, the older onboarding schedule. E2 states: ``No subsequent utilization instruction, settlement confirmation or support amendment is recorded in this schedule.'' The pair retains identical source passages, rule, calculation and disposition; both linked sources exist and precede the cutoff. The changed attribution is unsupported because E2 lacks the candidate support amendment. These aliases are specific to D037; source labels are shuffled across design cells. Figure~\ref{fig:d037-attribution} displays the source-attribution comparison.
 
-\begin{figure}[htbp]\centering\resizebox{\linewidth}{!}{\input{figures/figure2.tikz}}\caption{Synthetic support-timing case. Identical support amounts produce different payment-date liquidity because only resources available by the debt-service date enter the calculation. Source: author-created diagram.}\label{fig:support}\end{figure}
-
+\begin{figure}[H]
+  \centering
+  \makebox[\linewidth][c]{\includegraphics[width=175mm]{figures/Figure_3_D037_Source_Attribution.pdf}}
+  \caption{D037 source-attribution comparison. Both records retain the candidate calculation link C1 $\rightarrow$ E0. The rationale cites E0 in D037-C and E2 in D037-X. E0 records the candidate support and confirmation; E2 lacks the amendment. Both pass structural validation. Source-support annotations describe the cited passages. The full record also retains the baseline calculation link C1 $\rightarrow$ E1. Source: author's own work.}
+  \label{fig:d037-attribution}
+\end{figure}
 \FloatBarrier
 
 \section{Computational methodology and reproducibility}
@@ -186,7 +205,6 @@ For each of the 54 supporting-attribution -C controls defined in Section 3, the 
 
 \begin{equation}\label{eq:ablation}\mathrm{Cov}_{-r}=\frac{1}{324}\sum_{i=1}^{324}G_{-r}(x_i).\end{equation}
 
-
 The full validator coverage is defined analogously using $G$. Because the corpus is exhaustive for the constructed single-fault perturbations, these quantities are exact corpus proportions rather than estimates of a population sensitivity.
 
 \subsection{Comparator and semantic controls}
@@ -217,7 +235,15 @@ The full validator alerted on all 324 injected structural perturbations and prod
 
 \subsection{Diagnostic-family ablation}
 
-Suppressing any one of the six diagnostic families reduced structural alert coverage from 100\% to 83.33\%, an absolute reduction of 16.67 percentage points. All 54 newly missed perturbations belonged to the suppressed diagnostic's own fault family; coverage of the other five families remained complete. Figure 3 displays this one-to-one pattern.
+Suppressing any one of the six diagnostic families reduced structural alert coverage from 100\% to 83.33\%, an absolute reduction of 16.67 percentage points. All 54 newly missed perturbations belonged to the suppressed diagnostic's own fault family; coverage of the other five families remained complete. Figure~\ref{fig:ablation} displays this one-to-one pattern.
+
+\begin{figure}[H]
+  \centering
+  \makebox[\linewidth][c]{\includegraphics[width=175mm]{figures/Figure_4_Diagnostic_Ablation.pdf}}
+  \caption{Diagnostic-family ablation matrix. Rows identify injected structural faults; columns identify the diagnostic output suppressed. Each matrix cell reports alerts among 54 perturbations. The full validator detects 324/324 faults. Suppressing one diagnostic family leaves its 54 faults undetected, giving 270/324 coverage (83.33\%). Counts are exact over the fixed corpus. Source: author's own work.}
+  \label{fig:ablation}
+\end{figure}
+\FloatBarrier
 
 \subsection{Semantic attribution boundary}
 
@@ -226,8 +252,6 @@ All 54 deliberately misleading source-attribution records passed structural vali
 \subsection{Independent computational reproduction}
 
 The separately executed 14 November 2026 verification passed all 12 archived unit tests. The reproduced audit matched the 216 financial outputs, 324 structural-fault alerts and absence of alerts on the 54 clean controls. As designed, none of the 54 semantic-attribution records triggered a structural alert. All eight regenerated computational output files were byte-for-byte identical to the corresponding archived files. These checks verify repeatability of the released deterministic analysis in the separate execution.
-
-\begin{figure}[htbp]\centering\resizebox{\linewidth}{!}{\input{figures/figure3.tikz}}\caption{Diagnostic-family ablation matrix. Rows represent fault classes; columns after the full-validator column suppress one validation family. Each zero cell localizes the fault class that becomes undetected. Counts are exact over the fixed perturbation corpus. Source: author-created diagnostic matrix.}\label{fig:ablation}\end{figure}
 
 \section{Discussion}
 
